@@ -1,0 +1,47 @@
+.book-card {
+    background-color: #f0e68c;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.2s;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .book-card-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .details-btn, .wishlist-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .details-btn {
+    background-color: #3f14cd;
+    color: white;
+  }
+  
+  .wishlist-btn {
+    background-color: #19eb19;
+    color: white;
+  }
+  
+  .details-btn:hover {
+    background-color: #5a9bd4;
+  }
+  
+  .wishlist-btn:hover {
+    background-color: #50e550;
+  }
+  

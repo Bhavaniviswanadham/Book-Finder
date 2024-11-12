@@ -1,0 +1,43 @@
+ .App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #031c4e;
+    color: white;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .logo{
+    
+      font-size: 3rem; 
+      margin-right: 10px; 
+    }
+    
+  
+  .books-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .no-results-text {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  

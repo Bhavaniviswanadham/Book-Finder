@@ -1,0 +1,32 @@
+.wishlist {
+    width: 30%;
+    background-color: #fff0f5;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+     padding-bottom: 20px;
+    
+  }
+  
+  .wishlist h3 {
+    color: #10e4d9;
+    margin-bottom: 10px;
+  }
+  
+  .wishlist-item p {
+    cursor: pointer;
+    color: #4682b4;
+    text-decoration: underline;
+  }
+  
+  .wishlist-item p:hover {
+    color: #5a9bd4;
+  }
+  
+  @media (max-width: 768px) {
+    .wishlist {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  
